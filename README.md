@@ -1,7 +1,7 @@
 # debugkit
 
 ```sh
-$ kubectl run -it --rm debugkit --image=2tunnels/debugkit --restart=Never
+$ kubectl run -it --rm k8sdebug --image=petrushinvs/k8sdebug --restart=Never
 ```
 
 Run `die` to kill Istio sidecar and exit container.
